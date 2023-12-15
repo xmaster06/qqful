@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro"
 
-let res = await fetch("https://moodbest.com/wp-json/wp/v2/")
+let res = await fetch("https://moodbest.com/wp-json/wp/v2/posts?categories=1")
 let posts = await res.json();
 ---
 <Layout title="Dinos!">
