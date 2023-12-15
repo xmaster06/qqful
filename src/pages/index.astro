@@ -11,7 +11,7 @@ let posts = await res.json();
       posts.map((post) => (
         <article>
           <h2>
-            <a href={`/blog/${post.slug}/`} set:html={post.title.rendered} />
+            <a href={`/dinos/${post.slug}/`} set:html={post.title.rendered} />
           </h2>
           <Fragment set:html={post.content.rendered} />
         </article>
