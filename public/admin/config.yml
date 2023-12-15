@@ -3,8 +3,8 @@ backend:
   branch: main
 
 publish_mode: editorial_workflow
-media_folder: "src/assets"
-public_folder: "/assets"
+media_folder: "public"
+public_folder: "/public"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
